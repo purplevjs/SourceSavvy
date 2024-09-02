@@ -7,11 +7,11 @@
 # Steps to Execute:
   1. Create an account on Strava's Developer Portal
   2. Create an application on strava.com/setting/api
-     a. Get authorization code from authorization page
-     b. Exchange authorization code for access token & refresh token
-     c. View my activities using the access token just received
+     - Get authorization code from authorization page
+     - Exchange authorization code for access token & refresh token
+     - View my activities using the access token just received
   4. Download and install postman
-     a. Use refresh token to get new access tokens
+     - Use refresh token to get new access tokens
   5. Request our recent record api from Strava via email
   6. Install QGIS and make a map for recent activities
   7. Export as a qgz file and convert it to shapefiles
