@@ -10,7 +10,7 @@ if __name__=='__main__':
     We are reading the Shapefile using geopandas package and plot the data in a graph using matplotlib
     """
     # Load the shapefile
-    gdf = gpd.read_file("C:/Users/viola/Documents/GitHub/SourceSavvy/shp/recent_activities.shp")
+    gdf = gpd.read_file("./shp/recent_activities.shp")
  
     # Plot the shapefile
     gdf.plot()

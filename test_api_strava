@@ -11,8 +11,8 @@ class TestStava(unittest.TestCase):
         """
 
         # Read the shapefile
-        gdf1 = gpd.read_file("C:/Users/viola/Documents/GitHub/SourceSavvy/shp/recent_activities.shp")
-        gdf2 = gpd.read_file("C:/Users/viola/Documents/GitHub/SourceSavvy/empty_shp/empty_shapefile.shp")
+        gdf1 = gpd.read_file("./shp/recent_activities.shp")
+        gdf2 = gpd.read_file("./empty_shp/empty_shapefile.shp")
 
 
         # Check whether the shapefile is empty or not
